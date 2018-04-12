@@ -1,0 +1,5 @@
+https://github.com/bjeavons/zxcvbn-php
+https://getcomposer.org/download/
+https://getcomposer.org/doc/00-intro.md
+
+guides how to

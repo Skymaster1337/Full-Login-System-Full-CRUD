@@ -1,0 +1,52 @@
+.hoejre{
+	padding-left:60px;	
+}
+
+.ned{
+	padding-top:10px;	
+}
+
+.textcenter{
+	text-align:center;
+}
+
+.frem{
+	padding-left:20px;
+}
+
+.margin{
+	padding:0 2%;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#footer{
+	padding: 1.5rem; text-align:center;
+}
+
+.error{
+	color:red;
+}
+
+.navbar {
+	background-color:lightgrey; 
+}
+
+.background-nav2{
+	background-color:#DCFFCC;
+	border: 1px solid #9DB88A;
+}
+
+.userstats-background{
+	background-color:#F4FEF2;
+	border: 1px solid #9DB88A;
+	margin-top:20px;
+}
+
+.userstatsborder{
+	border: 1px solid #9DB88A;	
+}
