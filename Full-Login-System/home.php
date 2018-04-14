@@ -68,7 +68,7 @@ session_start();
            Put a Image Here<br>
             <div class="userstatsborder"><?php
 				if($user->has_role($uid, "ADMIN")){
-						echo "Group, Admin";
+						echo "Group: Admin";
 					}
 					else if($user->has_role($uid, "MODERATOR")) {
 						echo "Group, Mod";
