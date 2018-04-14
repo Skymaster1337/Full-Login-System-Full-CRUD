@@ -243,7 +243,6 @@ class User {
 				unset($_SESSION['permissions']);
 				$_SESSION['login'] = true; // this login var will use for the session thing
 				$_SESSION['uid'] = $user_data['uid'];
-				$_SESSION['role_id'] = $user_data['fk_role_id'];
 				return true;
 		}
 		else{
@@ -495,20 +494,20 @@ class User {
 			return false;
 		}
 	}
-	
-	 /**
+
+ /**
   * Gets the Session uid
   * @return String The User's Session Id.
   */
-    public function get_uid(){
-        if(isset($_SESSION['uid'])){
-            return $_SESSION['uid'];
-        }
-        else {
-            return false;
-        }
-    }
-	
+	public function get_uid(){
+		if(isset($_SESSION['uid'])){
+			return $_SESSION['uid'];
+		}
+		else {
+			return false;
+		}
+	}
+
 	/**
 	 * Do a Cleanup of the Session
 	 */
