@@ -74,9 +74,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if($checkPns == true){
     $register = $user->reg_user($fname, $lname, $uname, $uemail, $upass);
       
-          if ($register) {
+         if ($register) {
               // Registration Success
-              echo "<div class='textcenter' style='display: none' >Registration successful <a href='login.php'>Click here</a> to login</div>".'<script type="text/javascript"> alert("Your account has been successfully created, redirecting to login. "); window.location.replace("login.php"); </script>';
+              echo '<script type="text/javascript"> alert("Your account has been successfully created, redirecting to login. "); window.location.replace("login.php"); </script>';
               exit();
               if(isset($_POST['man_redirect'])){
                   $r = $_POST['man_redirect'];
